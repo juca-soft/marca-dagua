@@ -26,7 +26,7 @@ def index():
     Returns:
         render_template: Template HTML renderizado.
     """
-    return render_template('index.html')
+    return render_template('index.jinja')
 
 
 @app.route('/upload', methods=['POST'])
